@@ -1,0 +1,11 @@
+== SOCK-Override ==
+A python module that overrides the socket module to provide socks support for
+outgoing connection, is specifically compatible with urllib2 and associated
+libraries
+
+Usage (before importing anything else):
+
+import socks
+
+(and away we go!)
+
